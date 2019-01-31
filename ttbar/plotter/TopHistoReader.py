@@ -5,7 +5,7 @@ from numpy import average
 gROOT.SetBatch(1)
 sys.path.append(os.path.abspath(__file__).rsplit('/ttCMSDAS/',1)[0]+'/ttCMSDAS/')
 
-from ttbar.ttanalysis import ch, chan, lev, level, dataset, datasets, systematic, systlabel  
+#from ttbar.ttanalysis import ch, chan, lev, level, dataset, datasets, systematic, systlabel  
 
 class TopHistoReader:
  ''' Reads histograms created with the ttanalysis '''
